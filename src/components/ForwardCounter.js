@@ -9,7 +9,7 @@ const ForwardCounter = () => {
  // useCounter();
 
   // to share state, return value can be used in components
-  const counter = useCounter();
+  const counter = useCounter(true);
 
   return <Card>{counter}</Card>;
 };
